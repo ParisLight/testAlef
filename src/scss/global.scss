@@ -1,0 +1,40 @@
+@import "colors.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  color: $black;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1366px;
+  width: calc(100% - 184px);
+  margin: 0 auto;
+}
+
+.inner-container {
+  max-width: 616px;
+  width: 100%;
+ 
+}
+
+.content {
+  flex: 1 0 auto;
+}
